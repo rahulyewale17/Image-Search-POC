@@ -27,12 +27,16 @@ The library **react-webcam** used for taking pictures doesn't support in IOS chr
    `npm install react-webcam –save`
    
     Once installation is done. Verify the entry  in your package.json file.
+    
+    For icons used,install iconify icons
+    
+    `npm install @iconify/react @iconify/icons-mdi`
 
 2. In your Search Bar Widget,import the search-type.tsx and used it as component
 
     ` import { SearchTypes } from "../Search-types/search-types";`
 
-    `  <SearchTypes showSpeechToText={true} setSearchBoxVal={setInput} />`
+    `  <SearchTypes showImageToText={true} setSearchBoxVal={setInput} />`
 
 3. We have created the firebase API to call the google speech API.The call to the firebase API is placed in the **voiceImageTranscribeService**
    Host the Node Code on the firebase and use the Firebase hosted URL for the API in voiceImageTranscribeService.ts
