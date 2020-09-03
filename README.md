@@ -42,7 +42,7 @@ The library **react-webcam** used for taking pictures doesn't support in IOS chr
    Host the Node Code on the firebase and use the Firebase hosted URL for the API in voiceImageTranscribeService.ts
    `const VOICE_URL = "Your Firebase API URL"`
    
-4. Once All steps are done, Voice search will start working.
+4. Once All steps are done, Image search will start working.
 
 ## Node(Backend)
   On the Firebase side, Google Vision API is used for gettings labels from image
